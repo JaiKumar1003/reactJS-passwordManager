@@ -1,0 +1,178 @@
+.delete-icon {
+  height: 24px;
+  width: 24px;
+  margin-left: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button {
+  all: unset;
+  background-color: transparent;
+}
+
+.stars {
+  height: 20px;
+  width: 100px;
+  margin: 8px;
+}
+
+.password {
+  font-size: 16px;
+  margin: 8px;
+}
+
+.username {
+  font-size: 16px;
+  margin: 8px;
+}
+
+.website {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px;
+}
+
+.website-username-delete-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  flex-grow: 1;
+}
+
+.initial-value {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.initial-card {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 26px;
+  border: 0px;
+  margin-right: 4px;
+}
+
+.password-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #7683cb;
+  border-radius: 4px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding: 16px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.yellow {
+  background-color: #f59e0b;
+}
+
+.lightgreen {
+  background-color: #10b981;
+}
+
+.lightorange {
+  background-color: #f97316;
+}
+
+.lightblue {
+  background-color: #14b8a6;
+}
+
+.darkred {
+  background-color: #b91c1c;
+}
+
+.grey {
+  background-color: #64748b;
+}
+
+.skyblue {
+  background-color: #0ea5e9;
+}
+
+@media screen and (min-width: 768px) {
+  .delete-icon {
+    height: 24px;
+    width: 24px;
+    margin-left: 16px;
+  }
+
+  .button {
+    all: unset;
+    background-color: transparent;
+  }
+  
+  .stars {
+    width: 120px;
+  }
+
+  .password {
+    font-size: 16px;
+    margin: 8px;
+  }
+
+  .username {
+    font-size: 16px;
+    margin: 8px;
+  }
+
+  .website {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px;
+  }
+
+  .website-username-delete-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f8fafc;
+    font-family: 'Roboto';
+    flex-grow: 1;
+  }
+
+  .initial-value {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  .initial-card {
+    height: 44px;
+    width: 44px;
+    margin-right: 4px;
+  }
+
+  .password-item {
+    border-radius: 4px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding: 16px;
+    width: 46%;
+    margin-bottom: 18px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .stars {
+    width: 110px;
+  }
+
+  .password-item {
+    width: 31%;
+  }
+}

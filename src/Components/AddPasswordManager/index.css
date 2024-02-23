@@ -1,0 +1,159 @@
+.add-button {
+  background-color: #0b69ff;
+  height: 36px;
+  width: 100px;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  align-self: flex-end;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.input {
+  height: 50px;
+  width: 80%;
+  border: 0px;
+  background-color: transparent;
+  border-left: 1px solid #b6c3ca;
+  color: #454f84;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.input-img {
+  height: 22px;
+  width: 22px;
+  margin: 14px;
+}
+
+.input-card {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 4px;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.form-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form-card {
+  background-color: #454f84;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  padding-bottom: 20px;
+}
+
+.password-manager-img {
+  width: 100%;
+}
+
+.password-manager-img-card {
+  width: 100%;
+}
+
+.password-input-card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding: 16px;
+  background-color: #5763a5;
+  border-radius: 8px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.app-logo {
+  width: 140px;
+}
+
+.app-logo-card {
+  width: 100%;
+  align-self: flex-start;
+}
+
+.password-manager-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #9ba9eb;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-card {
+    padding: 16px;
+    padding-bottom: 20px;
+    width: 46%;
+  }
+
+  .password-manager-img {
+    width: 100%;
+  }
+
+  .password-manager-img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+    order: 1;
+  }
+
+  .password-input-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding: 26px;
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .app-logo {
+    width: 200px;
+  }
+
+  .app-logo-card {
+    width: 100%;
+    align-self: flex-start;
+    margin-bottom: 12px;
+  }
+
+  .password-manager-container {
+    width: 85%;
+  }
+
+  .app-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

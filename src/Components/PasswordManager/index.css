@@ -1,0 +1,262 @@
+.pass-manager-list {
+  padding: 0px;
+  list-style-type: none;
+  width: 100%;
+}
+
+.no-password-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.no-password-img {
+  width: 100%;
+}
+
+.no-password-img-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  align-self: center;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+.pass-checkbox-label {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.pass-checkbox {
+  height: 18px;
+  width: 18px;
+  background-color: #f8fafc;
+  border: 0px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.pass-manager-checkbox-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.password-manager-line {
+  background-color: #7683cb;
+  height: 1px;
+  width: 100%;
+}
+
+.search-input {
+  background-color: transparent;
+  height: 26px;
+  width: 70px;
+  border: 0px;
+  border-left: 1px solid #94a3b8;
+  color: #454f84;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.search-img {
+  height: 15px;
+  width: 15px;
+  margin: 6px;
+}
+
+.pass-manager-search-card {
+  background-color: #f8fafc;
+  height: 26px;
+  width: 100px;
+  border: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.pass-manager-list-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #b6c3ca;
+  height: 28px;
+  width: 28px;
+  border-radius: 20px;
+}
+
+.pass-manager-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.pass-manager-heading-card {
+  display: flex;
+  align-items: center;
+}
+
+.pass-manager-heading-search-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-manager-card {
+  background-color: #5763a5;
+  border-radius: 8px;
+  min-height: 76vh;
+  width: 100%;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding: 16px;
+}
+
+@media screen and (min-width: 576px) {
+  .no-password-heading {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .pass-checkbox-label {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .pass-checkbox {
+    height: 22px;
+    width: 22px;
+    margin-right: 12px;
+  }
+
+  .search-input {
+    height: 30px;
+    width: 170px;
+    font-size: 16px;
+    padding-left: 12px;
+  }
+
+  .search-img {
+    height: 20px;
+    width: 20px;
+    margin: 14px;
+  }
+
+  .pass-manager-search-card {
+    height: 30px;
+    width: 220px;
+  }
+
+  .pass-manager-list-count {
+    font-size: 18px;
+    height: 28px;
+    width: 28px;
+  }
+
+  .pass-manager-heading {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pass-manager-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .no-password-heading {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .no-password-img {
+    width: 100%;
+  }
+
+  .no-password-img-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-self: center;
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+
+  .pass-checkbox-label {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .pass-checkbox {
+    height: 20px;
+    width: 20px;
+    margin-right: 14px;
+  }
+
+  .search-input {
+    height: 30px;
+    width: 190px;
+    border: 0px;
+    font-size: 16px;
+    padding-left: 14px;
+    border-left: 1px solid #b6c3ca;
+  }
+
+  .search-img {
+    height: 22px;
+    width: 22px;
+    margin: 14px;
+  }
+
+  .pass-manager-search-card {
+    height: 30px;
+    width: 240px;
+  }
+
+  .pass-manager-list-count {
+    font-size: 16px;
+    height: 28px;
+    width: 28px;
+  }
+
+  .pass-manager-heading {
+    font-size: 22px;
+    margin-right: 14px;
+  }
+
+  .password-manager-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding: 20px;
+  }
+}
